@@ -2,6 +2,8 @@
 
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.VBox?>
 
 <?import javafx.scene.control.Button?>
@@ -12,5 +14,9 @@
     </padding>
 
     <Label fx:id="welcomeText"/>
-    <Button text="Hello!" onAction="#onHelloButtonClick"/>
+    <TextField fx:id="textField" promptText="Enter text"/>
+    <PasswordField fx:id="passwordField" promptText="Enter password"/>
+    <Button text="Log in!" onAction="#onHelloButtonClick"/>
+    <Button text="Wachtwoord vergeten!" onAction="#onHelloButtonClick"/>
+    <Button text="Nieuwe account aanmaken" onAction="#onHelloButtonClick"/>
 </VBox>
