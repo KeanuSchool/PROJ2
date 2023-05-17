@@ -17,7 +17,7 @@
     <TextField fx:id="textField" promptText="Enter text"/>
     <PasswordField fx:id="passwordField" promptText="Enter password"/>
     <Button fx:id="loginButton" text="Log in" onAction="#onHelloButtonClick"/>
-    <Button fx:id="forgotPasswordButton" text="Wachtwoord vergeten" onAction="#onHelloButtonClick"/>
+    <Button fx:id="forgotPasswordButton" text="Wachtwoord vergeten" onAction="#switchToScene3"/>
     <Button fx:id="createAccountButton" text="Nieuwe account aanmaken" onAction="#switchToScene2"/>
 
 </VBox>

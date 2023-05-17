@@ -10,10 +10,11 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class Scene2Controller {
+public class Scene4Controller {
+
     @FXML
-    public void switchToScene4(ActionEvent event) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("scene4.fxml"));
+    public void switchToScene1(ActionEvent event) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("hello-view.fxml"));
         Parent scene2Root = fxmlLoader.load();
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         stage.setScene(new Scene(scene2Root, 800, 600));

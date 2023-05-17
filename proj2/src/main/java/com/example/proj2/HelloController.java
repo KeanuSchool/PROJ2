@@ -35,7 +35,7 @@ public class HelloController {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("scene2.fxml"));
         Parent scene2Root = fxmlLoader.load();
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-        stage.setScene(new Scene(scene2Root, 320, 240));
+        stage.setScene(new Scene(scene2Root, 800, 600));
         stage.setTitle("AIsistify");
         stage.show();
     }
@@ -44,7 +44,7 @@ public class HelloController {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("scene3.fxml"));
         Parent scene2Root = fxmlLoader.load();
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-        stage.setScene(new Scene(scene2Root, 320, 240));
+        stage.setScene(new Scene(scene2Root, 800, 600));
         stage.setTitle("AIsistify");
         stage.show();
     }
