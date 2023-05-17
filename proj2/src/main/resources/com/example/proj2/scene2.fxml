@@ -14,10 +14,12 @@
     </padding>
 
     <Label fx:id="welcomeText"/>
-    <TextField fx:id="textField" promptText="Enter text"/>
+    <TextField fx:id="textField" promptText="Enter je naam"/>
+    <TextField fx:id="textField3" promptText="Enter je email"/>
+    <TextField fx:id="textField4" promptText="Enter je username"/>
     <PasswordField fx:id="passwordField" promptText="Enter password"/>
-    <Button fx:id="loginButton" text="Log in" onAction="#onHelloButtonClick"/>
-    <Button fx:id="forgotPasswordButton" text="Wachtwoord vergeten" onAction="#onHelloButtonClick"/>
-    <Button fx:id="createAccountButton" text="Nieuwe account aanmaken" onAction="#switchToScene2"/>
+    <Button fx:id="loginButton" text="maak account aan" onAction="#onHelloButtonClick"/>
+
+
 
 </VBox>
